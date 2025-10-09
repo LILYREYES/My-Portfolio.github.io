@@ -7,7 +7,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://My-Portfolio.gihub.io",
+  site: "https://My-Portfolio.github.io",
   integrations: [preact(), icon(), sitemap({
     filter: (page) =>
       !page.includes("/blog/tags") &&
