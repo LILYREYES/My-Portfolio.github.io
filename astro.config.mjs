@@ -2,11 +2,11 @@ import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import preact from "@astrojs/preact";
 import sitemap from "@astrojs/sitemap";
-import icon from "astro-icon";
+import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  output: "static",
-  base: "/My-Portfolio.github.io/",  // 👈 base correcta para GitHub Pages
+  base: '/My-Portfolio.github.io/',
+
   site: "https://lilyreyes.github.io/My-Portfolio.github.io/",  // 👈 URL completa con slash final
   integrations: [
     preact(),
