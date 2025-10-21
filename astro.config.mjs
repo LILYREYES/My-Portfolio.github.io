@@ -1,25 +1,25 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-import tailwindcss from "@tailwindcss/vite";
+import tailwind from "@astrojs/tailwind";
 import preact from "@astrojs/preact";
-import sitemap from "@astrojs/sitemap"
+import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://My-Portfolio.github.io",
-  integrations: [preact(), icon(), sitemap({
-    filter: (page) =>
-      !page.includes("/blog/tags") &&
-      !page.includes("/blog/techs"),
-  }),],
-
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  output: "static",
+  base: "/My-Portfolio.github.io/",  // 👈 base correcta para GitHub Pages
+  site: "https://lilyreyes.github.io/My-Portfolio.github.io/",  // 👈 URL completa con slash final
+  integrations: [
+    preact(),
+    icon(),
+    sitemap({
+      filter: (page) =>
+        !page.includes("/blog/tags") && !page.includes("/blog/techs"),
+    }),
+    tailwind(), // ✅ integración correcta de Tailwind
+  ],
   markdown: {
     shikiConfig: {
-      theme: 'github-dark'
+      theme: "github-dark",
     },
   },
 });
