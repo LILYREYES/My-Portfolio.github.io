@@ -1,9 +1,9 @@
 {
   "profileImage": "/images/efeeleprofile.webp",
-  "profileAlt": "Photo of Fernando Aldair López Ponce (EFEELE) for the blog",
+  "profileAlt": "Photo of Myriam Lilia Reyes",
   "profileLink": "/about-me",
-  "profileTitle": "FrontEnd Developer",
-  "profileName": "Fernando López",
+  "profileTitle": "Fullstack Developer",
+  "profileName": "Myriam Reyes",
   "github": "https://github.com/EFEELE/NeonMint",
   "githubText": "Do you like this blog's design?",
   "portfolioImage": "/images/portfolio.webp",
@@ -11,7 +11,7 @@
   "linkedin": "https://www.linkedin.com/in/efeele/",
   "instagram": "https://www.instagram.com/efeele.dev/",
   "youtube": "https://www.youtube.com/@efeeledev",
-  "alias": "EFEELE",
+  "alias": "FULLSTACK DEVELOPER",
   "contactSectionTitle": "Ready to take your idea to the next level?",
   "contactSectionSubtitle": "Let's work together.",
   "contactSectionButtonText": "Contact Me",
@@ -30,7 +30,7 @@
     "Movies",
     "Board Games"
   ],
-  "pageTitle": "NeonMint by | Fernando Lopez | EFEELE",
+  "pageTitle": "NeonMint by | Myriam Reyes",
   "pageDescription": "Is a modern, minimalist template crafted for developers and digital creatives.",
   "OGImage": {
     "url": "/images/imagedefault.webp",
