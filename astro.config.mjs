@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   base: '/My-Portfolio.github.io/', // Ruta base para GitHub Pages
-  site: 'https://lilyreyes.github.io/My-Portfolio.github.io/', // URL completa con slash final
+  site: 'https://lilyreyes.github.io/My-Portfolio.github.io', // URL completa con slash final
   integrations: [
     preact(),
     sitemap({
