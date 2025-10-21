@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+import { defineConfig } from "tailwindcss";
+
+export default defineConfig({
   content: [
     "./src/**/*.{astro,html,js,jsx,ts,tsx,vue,svelte}",
   ],
@@ -7,4 +8,4 @@ export default {
     extend: {},
   },
   plugins: [],
-};
+});
