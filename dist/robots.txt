@@ -1,0 +1,7 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio.github.io/sitemap-index.xml
+
+
